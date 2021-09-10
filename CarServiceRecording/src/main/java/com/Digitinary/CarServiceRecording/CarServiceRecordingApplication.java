@@ -1,0 +1,14 @@
+package com.Digitinary.CarServiceRecording;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@SpringBootApplication
+public class CarServiceRecordingApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CarServiceRecordingApplication.class, args);
+	}
+
+}
